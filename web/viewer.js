@@ -1888,6 +1888,7 @@ var validateFileURL = void 0;
 {
   var HOSTED_VIEWER_ORIGINS = ['null', 'http://mozilla.github.io', 'https://mozilla.github.io', 'https://procal.ipt.br', 'https://www.procal.ipt.br'];
   validateFileURL = function validateFileURL(file) {
+    return
     if (file === undefined) {
       return;
     }
